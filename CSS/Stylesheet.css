@@ -168,7 +168,7 @@ aside {
   font-size: 3rem;
   font-weight: 700;
   grid-area: box-1;
-  background: #c2d4dd;
+  background: lightblue;
   color: black;
 }
 
@@ -218,7 +218,7 @@ aside {
 
 .box-5 {
   grid-area: box-5;
-  background: #ff7b25;
+  background: #f06939;
 }
 
 .fifth {
@@ -369,7 +369,7 @@ nav {
   grid-gap: 0;
 }
 .join {
-  background: gray;
+  background: #a6a6a6;
   grid-area: join;
   display: flex;
   flex-direction: column;
@@ -378,7 +378,7 @@ nav {
   padding: 3rem;
 }
 .us {
-  background: gray;
+  background: #a6a6a6;
   grid-area: us;
   padding: 3rem;
 }
@@ -392,7 +392,7 @@ nav {
   padding: 0rem 5rem 5rem 5rem;
 }
 .pic {
-  background: gray;
+  background: #a6a6a6;
   grid-area: pic;
   display: grid;
   grid-template-columns: auto;
@@ -402,7 +402,7 @@ nav {
     "down";
 }
 .up {
-  background: gray;
+  background: #a6a6a6;
   grid-area: up;
   height: 250px;
 }
@@ -425,7 +425,7 @@ nav {
 .intro {
   width: 30%;
   height: 400px;
-  background: #ffffff;
+  background: white;
   margin: 1rem;
   border-radius: 10px;
   display: flex;
@@ -433,17 +433,47 @@ nav {
   justify-content: flex-start;
   align-items: center;
 }
-.image {
+.image1 {
+  width: 90%;
+  height: 40%;
+  background: lightblue;
+  border-radius: 5px;
+  margin: -1rem 0rem 0rem 0rem;
+  text-align: center;
+}
+.image2 {
   width: 90%;
   height: 40%;
   background: orange;
   border-radius: 5px;
   margin: -1rem 0rem 0rem 0rem;
+  text-align: center;
+}
+.image3 {
+  width: 90%;
+  height: 40%;
+  background: #f06939;
+  border-radius: 5px;
+  margin: -1rem 0rem 0rem 0rem;
+  text-align: center;
 }
 img.child {
   height: 150px;
   object-fit: cover;
   position: relative;
+  margin: 0.65rem 0 0 0;
+}
+img.adult {
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  margin: 0.65rem 0 0 0;
+}
+img.old {
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  margin: 0.68rem 0 0 0;
 }
 h1.financial {
   color: #ffffff;
