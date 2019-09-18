@@ -3,6 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: lightgrey;
   padding: 0px 20px 0px 20px;
+  margin: auto;
 }
 main {
   width: 90%;
@@ -261,16 +262,16 @@ aside {
   margin-top: 0;
 }
 
-a {
+a.top {
   text-decoration: none;
   text-align: center;
 }
 
-a:hover.top {
+a.top:hover.top {
   color: red;
 }
 
-a:visited {
+a.top:visited {
   color: blue;
 }
 
