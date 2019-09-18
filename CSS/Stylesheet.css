@@ -3,6 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: lightgrey;
   padding: 0px 20px 0px 20px;
+  margin: auto;
 }
 main {
   width: 90%;
@@ -266,11 +267,12 @@ a.top {
   text-align: center;
 }
 
-a:hover.top {
+a.top:hover.top {
   color: red;
 }
 
 a:visited.top {
+a.top:visited {
   color: blue;
 }
 
