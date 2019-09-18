@@ -261,7 +261,7 @@ aside {
   margin-top: 0;
 }
 
-a {
+a.top {
   text-decoration: none;
   text-align: center;
 }
@@ -270,7 +270,7 @@ a:hover.top {
   color: red;
 }
 
-a:visited {
+a:visited.top {
   color: blue;
 }
 
